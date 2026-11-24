@@ -1,0 +1,82 @@
+# Dépendances et résultats de compilation
+node_modules/
+/dist/
+*.tsbuildinfo
+/coverage/
+/.vite/
+*.log
+
+# Configuration, identifiants et clés locales
+.env*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+
+# Sauvegardes financières : aucun export utilisateur dans le dépôt
+*.json
+*.jsonl
+*.ndjson
+*.csv
+*.tsv
+*.ofx
+*.qif
+*.qfx
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.indexeddb*
+# Seuls les trois fichiers JSON de configuration ci-dessous sont publiables
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+backups/
+sauvegardes/
+exports/
+private/
+personal/
+donnees/
+data/
+
+# Archives et documents personnels, y compris sous un nom non standard
+*.zip
+*.tar
+*.gz
+*.7z
+*.pdf
+*.docx
+*.xlsx
+*.xls
+*.txt
+
+# Captures locales : seules les captures explicitement relues sont autorisées
+*.png
+*.jpg
+*.jpeg
+*.webp
+!/public/icon-180.png
+!/public/icon-192.png
+!/public/icon-512.png
+!/docs/screenshots/parametres-mobile.jpg
+
+# Historique technique conservé localement, hors publication
+/work/
+/archive/
+/outputs/
+/supabase/
+/PROJECT_CONTEXT.md
+/docs/SUPABASE_SETUP.md
+/docs/SUPABASE_CONNECTED.md
+/docs/AUDIT_V0.md
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

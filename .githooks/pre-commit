@@ -1,0 +1,3 @@
+#!/bin/sh
+# Contrôle les fichiers réellement placés dans l’index, même après git add -f.
+node scripts/check-publication.mjs --staged
